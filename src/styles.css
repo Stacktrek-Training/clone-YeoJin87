@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/coverbg.png');
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
