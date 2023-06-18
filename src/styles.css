@@ -2,17 +2,39 @@
     box-sizing: border-box;
 }
 
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
 body {
     background-image: url('./images/coverbg.png');
     background-repeat: no-repeat;
     margin: 0;
 }
 
-.nav {
+a {
     color: white;
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
     padding: 0 1rem;
+}
+
+.nav-bar{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 30px 100px 10px 30px;
+    
+}
+.navigation {
+    text-align: center;
+    display: flex;
+    float: right;
+    
+}
+
+.nav-bar li a{
+    text-decoration: none;
 }
