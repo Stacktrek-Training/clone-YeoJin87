@@ -13,6 +13,8 @@ const quoteComponentStyle = {
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
+  backgroundColor: "rgba(45, 45, 45, 0.5)",
+  width: "400px",
 };
 
 const paragraphStyle = {
