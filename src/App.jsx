@@ -2,8 +2,10 @@ import React from 'react'
 //import './App.css'
 //import Navbar from "./Navbar"
 import "./styles.css"
+import Quote from '/src/components/Quote'
+import TextDetails from './components/TextDetails'
 
-const logo =  'https://drive.google.com/file/d/1wEb597clpIEt3z4_laIxdn3RZRtORWLM/view?usp=sharing'
+const logo =  '/src/images/logo.png'
 function NavNames() {
     const data = [
         {
@@ -15,8 +17,8 @@ function NavNames() {
             'link': '#about'
         },
         {
-            'nav': 'Services',
-            'link': '#services'
+            'nav': 'Product',
+            'link': '#product'
         },
         {
             'nav': 'Contact',
@@ -26,14 +28,20 @@ function NavNames() {
     const listItems = data.map((element) => {
         return (
             <ul style = {{listStyle: 'none'}}>
-                <li><a href={element.link}>{element.nav}</a></li>
+                <li><a href={element.link} className='list'>{element.nav}</a></li>
             </ul>
         )
     }
     )
     return (
         <div className='navigation'>
+            <div className='title'><img className='logo' src={logo} alt="" />
+            <h2>Salford & Co.</h2>
+            </div>
+            <div className='nav-items' style = {{listStyle: 'none'}}>
             {listItems}
+            </div>
+            
         </div>
     )
 }
@@ -41,9 +49,10 @@ function App() {
  return (
     <div className='App'>
         <div className='nav-bar'>
-            
-           <h2>Salford & Co.</h2>
             <NavNames />
+            <TextDetails />
+            <Quote />
+            
         </div>
     </div>
  )

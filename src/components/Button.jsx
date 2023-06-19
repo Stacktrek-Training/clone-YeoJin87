@@ -2,7 +2,9 @@ import React from "react";
 
 function Button() {
     return (
-        <button> Shop Now </button>
+        <div className="body-btn">
+        <button className="btn"> SHOP NOW </button>
+        </div>
     )
     }
 

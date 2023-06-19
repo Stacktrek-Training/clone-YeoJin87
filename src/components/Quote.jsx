@@ -1,6 +1,7 @@
 import React from "react";
 import Star from "../images/5star.png";
 import Richard from "../images/RichardS.png"
+import 'src/styles.css'
 const starStyle = {
   height: "150px",
   maxwidth: "100%",
@@ -28,7 +29,7 @@ const RichardStyle = {
 
 function Quote() {
   return (
-    <div style={quoteComponentStyle}>
+    <div className='quotestyle' style={quoteComponentStyle}>
       <img src={Star} alt="" style={starStyle} />
       <p style={paragraphStyle}>
         "I don't always clop, but when I do, it's because

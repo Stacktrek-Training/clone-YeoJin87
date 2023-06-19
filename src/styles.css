@@ -21,20 +21,88 @@ a {
     padding: 0 1rem;
 }
 
-.nav-bar{
+.navigation{
     display: flex;
     text-decoration: none;
     justify-content: space-between;
-    padding: 30px 100px 10px 30px;
-    
-}
-.navigation {
-    text-align: center;
-    display: flex;
-    float: right;
+    padding: 30px 10px 10px 30px;
     
 }
 
-.nav-bar li a{
+.nav-items{
+    display: flex;
     text-decoration: none;
+    
+    
 }
+
+.logo {
+    align-items: center;
+    height: 20px;
+    width: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.list{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 60px 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.list:hover{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: yellow;
+}
+h2{
+    font-size: 25px;
+    padding: 0 0 10px 30px;
+    color: white;
+    margin: 0 0;
+}
+.title {
+    display: flex;
+    align-items: center;
+    padding: 0 0 10px 70px;
+   
+}
+.quote {
+   margin: 100px;
+   width: 150px;
+   height: 50px;
+}
+.body-text h1{
+    color: white;
+    text-align: justify;
+    padding: 130px 0 0 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+
+}
+.body-content {
+    text-align: justify;
+    color: white;
+    padding: 0px 0 0 100px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.btn {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.body-btn{
+    padding: 20px 0 0 0;
+    width: 150px;
+    height: ;
+    box-shadow: 10px 20px 0px 0px  black;
+}
+
