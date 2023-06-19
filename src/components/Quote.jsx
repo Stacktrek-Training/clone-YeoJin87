@@ -1,7 +1,7 @@
 import React from "react";
 import Star from "../images/5star.png";
 import Richard from "../images/RichardS.png"
-import 'src/styles.css'
+
 const starStyle = {
   height: "150px",
   maxwidth: "100%",
